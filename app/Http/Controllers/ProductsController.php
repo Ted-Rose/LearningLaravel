@@ -6,13 +6,13 @@ use Illuminate\Http\Request;
 
 class ProductsController extends Controller
 {
-    public function index (){
-        $title = "Welcome to my first steps in Laravel!";
-        $description = "Done by Tedis";
+    public function index(){
+        // Prints the route of view prodcuts
+        // If the route has been named using
+        // ->name
+        print_r(route("products"));
 
-        return view("products.index", [
-            "title" => $title
-        ]);
+        return view("products.index");
     }
 
     public function show ($name, $id){

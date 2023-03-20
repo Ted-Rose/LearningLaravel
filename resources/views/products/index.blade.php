@@ -8,7 +8,9 @@
 </head>
 <body>
     <h1>Products</h1>
-    <p>{{$products}} No {{$id}} </p>
+    <p>Hello!</p>
+    <!-- Route("products") points to the name route -->
+    <a href="{{route("products")}}">Products<a>
 
     
 

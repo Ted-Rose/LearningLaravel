@@ -6,7 +6,7 @@ use App\Http\Controllers\ProductsController;
 
 
 Route::get("/products", 
-    [ProductsController::class, "index"]);
+    [ProductsController::class, "index"])->name("products");
 
 // Pattern is integer
 /* Route::get("/products/{id}", 

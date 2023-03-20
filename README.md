@@ -1,0 +1,1 @@
+1. Got to baseUrl/products/iphone/24
